@@ -1,0 +1,11 @@
+import java.util.Random;
+//Mason Wheeler Section 902
+public class RandomNumbers 
+{
+	public static void main(String[] args) 
+	{
+		Random randomNumbers = new Random();
+		System.out.println(randomNumbers.nextInt(5));
+	}
+
+}

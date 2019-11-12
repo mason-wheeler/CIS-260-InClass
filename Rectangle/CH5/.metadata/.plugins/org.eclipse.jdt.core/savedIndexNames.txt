@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\mgw92498\Desktop\CIS260\CH5\.metadata\.plugins\org.eclipse.jdt.core
+2084619963.index
+1685768423.index
+3930209060.index

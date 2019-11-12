@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.Scanner;
+
+//Mason Wheeler Section 902
+public class FileStuff 
+{
+	public static void main(String[] args) throws IOException
+	{
+		FileWriter fw = new FileWriter("names.txt", true);
+		
+		PrintWriter pw = new PrintWriter(fw);
+		
+		for (int i = 0; i < 10; i++) {
+			pw.println("bob" + i);	
+		}
+		pw.close();
+	
+		File myFile = new File("names.txt");
+		Scanner inputFile = new Scanner(myFile);
+		
+		
+	}//end of main
+}//end of class

@@ -1,0 +1,19 @@
+import java.io.*;
+
+//Mason Wheeler Section 902
+public class FileStuff 
+{
+	public static void main(String[] args) throws IOException
+	{
+		FileWriter fw = new FileWriter("names.txt", true);
+		
+		PrintWriter pw = new PrintWriter(fw);
+		
+		for (int i = 0; i < 10; i++) {
+			pw.println("Mason" + i);	
+		}
+		
+		pw.close();
+	
+	}//end of main
+}//end of class
