@@ -1,5 +1,5 @@
 //Mason Wheeler Section 902
-package edu.missouristate;
+package edu.missouristate.chapter6;
 
 public class Rectangle 
 {

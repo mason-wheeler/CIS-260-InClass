@@ -1,4 +1,4 @@
-package edu.missouristate;
+package edu.missouristate.chapter6;
 
 public class ApplicationTestHarness 
 {
