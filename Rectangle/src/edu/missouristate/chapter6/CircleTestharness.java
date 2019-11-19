@@ -14,6 +14,6 @@ public class CircleTestharness
 		
 		System.out.println("The circle's area is: " + aCircle.getArea());
 		System.out.println("The circle's diameter is: " + aCircle.getDiameter());
-		System.out.println("The circle's circomference is: " + aCircle.getCircumference());
+		System.out.println("The circle's circumference is: " + aCircle.getCircumference());
 	}//end of main
 }//end of class
